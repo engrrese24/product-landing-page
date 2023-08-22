@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTO Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="logo-container">
+                <img src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX2363152.jpg"
+                alt="motorcycle"  
+                id="header-img"/>
+                <span class="the-product">Motors</span>
+            </div>    
+            <ul class="nav-links">
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#sample" class="nav-link">Services</a></li>
+                <li><a href="#forsale" class="nav-link">For Sale</a></li>
+            </ul>        
+        </nav>
+    </header>
+    <section id="email-section">
+        <h2>Coolest Products</h2>
+        <form action="https://www.freecodecamp.com/email-submit" 
+        id="form">
+            <input 
+            id="email"
+            type="email" 
+            required 
+            placeholder="Enter your email address" 
+            name="email"/>
+            <input type="submit"
+             id="submit"
+             value="GET STARTED"/>
+        </form>
+    </section>
+    <section id="features">
+        <div class="features">
+            <i class="ri-file-paper-2-fill ri-4x icon"></i>  
+            <div>
+                <h2>Premium Materials</h2>
+                <p>
+                    Our products have the best materials which is created to last.
+                </p>
+            </div>
+        </div>
+        <div class="features">
+            <i class="ri-truck-fill ri-4x icon"></i>
+            <div>
+                <h2>Fast Delivery</h2>
+                <p>
+                    We provide our customers fast delivery of their order right infornt if their door.
+                </p>
+            </div>
+        </div>
+        <div class="features">
+            <i class="ri-medal-fill ri-4x icon"></i>
+            <div>
+                <h2>High Quality</h2>
+                <p>
+                    We only offer high quality products for our customer's own satisfaction.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="sample">
+        <iframe 
+            id="video"
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/QrE7F5NiKAY" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+    <section id="forsale">
+        <h2>For Sale</h2>
+        <div id="product-cards">
+            <div class="card">
+                <div class="product-image product1"></div>
+                <div class="inner-card">
+                    <h1 class="header">EyeRide HUD</h1>
+                    <p class="content">
+                        Created by former Airbus and BMW engineers. The EyeRide HUD for helmet is a tiny high-tech projector equipped with voice commands to keep you inform about the important things on the go, without taking you eyes off the road.
+                    </p> 
+                    <div class="flex">
+                        <p class="main-price">$35.99</p>
+                        <p class="old-price">$49.99</p>
+                    </div>
+                    <button class="add">
+                           <p style="margin-left: 5px;">Add to Cart</p>
+                    </button>
+                </div>
+            </div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
+    </section>
+</body>
+</html>
